@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food page</title>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <a href="">Webfood</a>
-        </div>
-        <nav>
-            <ul>
-                <li>Browse Meals</li>
-                <li>My Orders</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Browse Our Delicious Meals</h1>
-            <section>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Food page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header id="main-header">
+            <a href="index.html" id="logo">Webfood</a>
+            <nav>
                 <ul>
                     <li>
-                        <p>
-                            <img src="/images/risotto.jpg" alt="Photo of Risotto">
-                            <h2>Risotto with Tyger Prawns</h2>
-                            <button>Add to Cart</button>
-                        </p>
+                        <a href="">Browse Meals</a>
                     </li>
                     <li>
-                        <p>
-                            <img src="/images/cheeseburgers.jpg" alt="Photo of Cheeseburgers">
-                            <h2>Cheeseburgers</h2>
-                            <button>Add to Cart</button>
-                        </p>
+                        <a href="">My Orders</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-main">
+            <h1>Browse Our Delicious Meals</h1>
+            <section id="lates-products">
+                <ul>
+                    <li class="food-items">
+                        <article>
+                            <img
+                                src="/images/risotto.jpg"
+                                alt="Delicious risotto with tyger prawns"
+                            />
+                            <div class="food-item-content">
+                                <h2>Risotto with Tyger Prawns</h2>
+                                <a href="" class="btn">Add to Cart</a>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="food-items">
+                        <article>
+                            <img
+                                src="/images/cheeseburgers.jpg"
+                                alt="Classic cheeseburgers with fries"
+                            />
+                            <div class="food-item-content">
+                                <h2>Cheeseburgers</h2>
+                                <a href="" class="btn">Add to Cart</a>
+                            </div>
+                        </article>
                     </li>
                 </ul>
             </section>
-    </main>
-</body>
+        </main>
+    </body>
 </html>
